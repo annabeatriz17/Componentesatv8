@@ -1,9 +1,7 @@
 import React from "react";
-import { StyleSheet } from "react-native";
-import Header from "../componentes/Header";
-import Card from "../componentes/Card";
-import { View } from "react-native-reanimated/lib/typescript/Animated";
-import { ScrollView } from "react-native-gesture-handler";
+import { View, ScrollView,StyleSheet } from "react-native";
+import Header from "../componentes/Header.js";
+import Card from "../componentes/Card.js";
 
 export default function Home() {
     return (
@@ -20,7 +18,7 @@ export default function Home() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: "#eed6d3",
+        backgroundColor: "#ece3f0",
         alignItems: "center",
         justifyContent: "center",
     },

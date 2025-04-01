@@ -1,11 +1,11 @@
 import React from "react";
 import Home from "./pages/Home";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { View } from "react-native";
 
 export default function App() {
   return (
-    <SafeAreaView>
+    <View>
       <Home />
-    </SafeAreaView>
+    </View>
   );
 }
